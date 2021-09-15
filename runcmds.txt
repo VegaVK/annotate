@@ -1,7 +1,10 @@
 **Change Name of Annotation file in custom1.rviz, along with name of bag file**
 
 #Ouster:
-roslaunch annotate custom1.launch bag:="/home/vamsi/Downloads/ATemp/2021Jul12Bag8.bag --pause-topics /os_node/lidar_packets"
+roslaunch annotate custom1.launch bag:="/home/vamsi/Downloads/ATemp/2021Jul12Bag8.bag --pause-topics /flir_boson5/image_rect"
+
+#Ouster, Filtered:
+roslaunch annotate custom1_groundfiltered.launch bag:="/home/vamsi/Downloads/ATemp/2021Jul12Bag8.bag --pause-topics /flir_boson5/image_rect"
 
 #VLP:
 roslaunch annotate custom1.launch bag:="/home/vamsi/Downloads/ATemp/2020Dec11_Bag7-23-48-43.bag --pause-topics /velodyne_points"

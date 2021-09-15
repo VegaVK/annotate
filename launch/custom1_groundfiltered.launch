@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <launch>
+    <include file="$(find lidar_grd_filt)/launch/grd_filt.launch"/>
 	<arg name="bag" default="" />
 	<param name="/use_sim_time" value="true" />
 	<node type="rviz" name="rviz_annotate" pkg="rviz" output="screen" args="-d $(find annotate)/launch/custom1_grd_filt.rviz" />
