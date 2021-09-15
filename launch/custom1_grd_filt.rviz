@@ -12,6 +12,7 @@ Panels:
         - /Annotated PointCloud21/Linked Actions1
         - /Annotated PointCloud21/Keyboard Shortcuts1
         - /Annotated PointCloud21/Point Cloud1/Autocompute Value Bounds1
+        - /Axes1
       Splitter Ratio: 0.24295301735401154
     Tree Height: 668
   - Class: rviz/Selection
@@ -125,6 +126,7 @@ Visualization Manager:
           Marker Topic: /tracks
           Name: Tracks
           Namespaces:
+            Path: true
             Positions: true
           Queue Size: 100
           Value: true
@@ -167,6 +169,13 @@ Visualization Manager:
       Transport Hint: raw
       Unreliable: false
       Value: true
+    - Class: rviz/Axes
+      Enabled: true
+      Length: 3
+      Name: Axes
+      Radius: 1
+      Reference Frame: <Fixed Frame>
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -186,25 +195,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/ThirdPersonFollower
-      Distance: 12.51611614227295
+      Distance: 19.22585678100586
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 21.500988006591797
-        Y: 2.0927162170410156
-        Z: -8.701899787411094e-7
+        X: -4.958688735961914
+        Y: 3.9503040313720703
+        Z: 1.5139958122745156e-6
       Focal Shape Fixed Size: false
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.6997972726821899
+      Pitch: 0.47979679703712463
       Target Frame: os_sensor
       Value: ThirdPersonFollower (rviz)
-      Yaw: 2.415377378463745
+      Yaw: 2.5703842639923096
     Saved:
       - Angle: 2.2950024604797363
         Class: rviz/TopDownOrtho
