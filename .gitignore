@@ -32,4 +32,4 @@
 *.app
 
 #Annotations (will be manually updated to google drive)
-*.yaml
+#*.yaml
